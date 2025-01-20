@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_222_Kobzev_Busin_PR1"
         mc:Ignorable="d"
-                Title="Math Equation Solver" Height="450" Width="600">
+        Title="Math Equation Solver" Height="450" Width="600"
+        Closing="Window_Closing">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="125"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
@@ -17,32 +18,32 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
 
-        <Image Grid.Row="0" Grid.ColumnSpan="2" Source="equation.png" Margin="10"/>
+        <Image Grid.Row="0" Grid.ColumnSpan="2" Source="/Image1.png" Stretch="Fill" ToolTip="Наше уравнение."/>
 
-        <Label Grid.Row="1" Grid.Column="0" Content="Enter x:" Margin="10"/>
-        <TextBox Grid.Row="1" Grid.Column="1" Name="txtX" Margin="10"/>
+        <Label Grid.Row="1" Grid.Column="0" Content="X:" Margin="10" ToolTip="Переменная x"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Name="txtX" Margin="10" ToolTip="Значение для x"/>
 
-        <Label Grid.Row="2" Grid.Column="0" Content="Enter y:" Margin="10"/>
-        <TextBox Grid.Row="2" Grid.Column="1" Name="txtY" Margin="10"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Y:" Margin="10" ToolTip="Переменная y"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Name="txtY" Margin="10" ToolTip="Значение y"/>
 
-        
-        <Label Grid.Row="3" Grid.Column="0" Content="Choose f(x):" Margin="10"/>
+
+        <Label Grid.Row="3" Grid.Column="0" Content="Выберите f(x):" Margin="10" ToolTip="Функции"/>
         <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" Margin="10">
-            <RadioButton Name="rbSh" Content="sh(x)" IsChecked="True" Margin="5"/>
-            <RadioButton Name="rbX2" Content="x^2" Margin="5"/>
-            <RadioButton Name="rbExp" Content="e^x" Margin="5"/>
+            <RadioButton Name="rbSh" Content="sh(x)" IsChecked="True" Margin="5" ToolTip="Гиперболический синус"/>
+            <RadioButton Name="rbX2" Content="x^2" Margin="5" ToolTip="Квадратичная функция"/>
+            <RadioButton Name="rbExp" Content="e^x" Margin="5" ToolTip="Экспонета"/>
         </StackPanel>
 
-        
-        <Label Grid.Row="4" Grid.Column="0" Content="Result:" Margin="10"/>
-        <TextBox Grid.Row="4" Grid.Column="1" Name="txtResult" IsReadOnly="True" Margin="10"/>
 
-        
-        <Button Grid.Row="5" Grid.Column="0" Content="Calculate" Name="btnCalculate" Click="btnCalculate_Click" Margin="10"/>
-        <Button Grid.Row="5" Grid.Column="1" Content="Clear" Name="btnClear" Click="btnClear_Click" Margin="10"/>
+        <Label Grid.Row="4" Grid.Column="0" Content="Ответ:" Margin="10" ToolTip="Ответ"/>
+        <TextBox Grid.Row="4" Grid.Column="1" Name="txtResult" IsReadOnly="True" Margin="10" ToolTip="Значение a"/>
+
+
+        <Button Grid.Row="5" Grid.Column="0" Content="Вычислить" Name="btnCalculate" Click="btnCalculate_Click" Margin="10" FontFamily="Comic Sans MS" FontSize="14" Background="#FF06EC0A" ToolTip="Кнопка вычисления a"/>
+        <Button Grid.Row="5" Grid.Column="1" Content="Очистить" Name="btnClear" Click="btnClear_Click" Margin="10" FontFamily="Comic Sans MS" FontSize="14" Background="#FF06EC0A" ToolTip="Очистить поля ввода"/>
     </Grid>
 </Window>

@@ -29,8 +29,17 @@ namespace _222_Kobzev_Busin_PR1
         {
             try
             {
-                double x = double.Parse(txtX.Text);
-                double y = double.Parse(txtY.Text);
+                if (string.IsNullOrWhiteSpace(txtX.Text) || string.IsNullOrWhiteSpace(txtY.Text))
+                {
+                    MessageBox.Show("Заполните оба поля с x и y.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                if (!double.TryParse(txtX.Text, out double x) || !double.TryParse(txtY.Text, out double y))
+                {
+                    MessageBox.Show("Введите верные значения для x и y.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
 
                 double f_x = 0;
 
@@ -54,7 +63,7 @@ namespace _222_Kobzev_Busin_PR1
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Invalid input. Please enter valid numbers.");
+                MessageBox.Show($"Ошибка: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -64,6 +73,14 @@ namespace _222_Kobzev_Busin_PR1
             txtY.Text = "";
             txtResult.Text = "";
             rbSh.IsChecked = true;
+        }
+
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            MessageBoxResult result = MessageBox.Show("Уверены, чито хотите выйти?", "Exit", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (result == MessageBoxResult.No)
+                e.Cancel = true; 
         }
     }
 }
