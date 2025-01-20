@@ -5,8 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_222_Kobzev_Busin_PR1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+                Title="Math Equation Solver" Height="450" Width="600">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Grid.Row="0" Grid.ColumnSpan="2" Source="equation.png" Margin="10"/>
+
+        <Label Grid.Row="1" Grid.Column="0" Content="Enter x:" Margin="10"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Name="txtX" Margin="10"/>
+
+        <Label Grid.Row="2" Grid.Column="0" Content="Enter y:" Margin="10"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Name="txtY" Margin="10"/>
+
         
+        <Label Grid.Row="3" Grid.Column="0" Content="Choose f(x):" Margin="10"/>
+        <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" Margin="10">
+            <RadioButton Name="rbSh" Content="sh(x)" IsChecked="True" Margin="5"/>
+            <RadioButton Name="rbX2" Content="x^2" Margin="5"/>
+            <RadioButton Name="rbExp" Content="e^x" Margin="5"/>
+        </StackPanel>
+
+        
+        <Label Grid.Row="4" Grid.Column="0" Content="Result:" Margin="10"/>
+        <TextBox Grid.Row="4" Grid.Column="1" Name="txtResult" IsReadOnly="True" Margin="10"/>
+
+        
+        <Button Grid.Row="5" Grid.Column="0" Content="Calculate" Name="btnCalculate" Click="btnCalculate_Click" Margin="10"/>
+        <Button Grid.Row="5" Grid.Column="1" Content="Clear" Name="btnClear" Click="btnClear_Click" Margin="10"/>
     </Grid>
 </Window>
