@@ -1,3 +1,3 @@
 # PiT
-Практики для ПиТ
-https://prod.liveshare.vsengsaas.visualstudio.com/join?D27ED8921F6F48BC1A7467593E250B448F7A
+Практики для ПиТ <br>
+https://prod.liveshare.vsengsaas.visualstudio.com/join?E9669B0F7A7CA4D72541C103C812DC66C23E
