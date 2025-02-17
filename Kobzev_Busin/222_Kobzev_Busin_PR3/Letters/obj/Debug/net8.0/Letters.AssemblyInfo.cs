@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Galaxies")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Letters")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dded43a0ac5d3b6861c5b3037962fb622a969996")]
-[assembly: System.Reflection.AssemblyProductAttribute("Galaxies")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Galaxies")]
+[assembly: System.Reflection.AssemblyProductAttribute("Letters")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Letters")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

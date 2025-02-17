@@ -1,0 +1,15 @@
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\bin\Debug\net8.0\Letters.exe
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\bin\Debug\net8.0\Letters.deps.json
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\bin\Debug\net8.0\Letters.runtimeconfig.json
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\bin\Debug\net8.0\Letters.dll
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\bin\Debug\net8.0\Letters.pdb
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\obj\Debug\net8.0\Letters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\obj\Debug\net8.0\Letters.AssemblyInfoInputs.cache
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\obj\Debug\net8.0\Letters.AssemblyInfo.cs
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\obj\Debug\net8.0\Letters.csproj.CoreCompileInputs.cache
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\obj\Debug\net8.0\Letters.sourcelink.json
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\obj\Debug\net8.0\Letters.dll
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\obj\Debug\net8.0\refint\Letters.dll
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\obj\Debug\net8.0\Letters.pdb
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\obj\Debug\net8.0\Letters.genruntimeconfig.cache
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Letters\obj\Debug\net8.0\ref\Letters.dll
