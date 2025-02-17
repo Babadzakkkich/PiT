@@ -1,0 +1,53 @@
+﻿<Window x:Class="OmhsLaw.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OmhsLaw"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+        <Window.Resources>
+        <!-- Подключение словаря стилей -->
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Style.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <!-- Определение строк и столбцов -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Левая панель для ввода данных -->
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical" Margin="20,10,10,10">
+            <TextBlock Name="InputLabel1" Text="Введите значение 1:" FontSize="14" Margin="0,0,0,5"/>
+            <TextBox Name="InputField1" Width="200" Height="30" Margin="0,0,0,10"/>
+
+            <TextBlock Name="InputLabel2" Text="Введите значение 2:" FontSize="14" Margin="0,0,0,5"/>
+            <TextBox Name="InputField2" Width="200" Height="30" Margin="0,0,0,10"/>
+        </StackPanel>
+
+        <!-- Правая панель для переключателей -->
+        <StackPanel Grid.RowSpan="2" Grid.Column="1" Orientation="Vertical" Margin="10,10,20,10">
+            <RadioButton Name="CurrentRadioButton" Content="Сила тока (I)" GroupName="CalculationType" Margin="0,0,0,10" Checked="RadioButton_Checked"/>
+            <RadioButton Name="VoltageRadioButton" Content="Напряжение (U)" GroupName="CalculationType" Margin="0,0,0,10" Checked="RadioButton_Checked"/>
+            <RadioButton Name="ResistanceRadioButton" Content="Сопротивление (R)" GroupName="CalculationType" Margin="0,0,0,10" Checked="RadioButton_Checked"/>
+        </StackPanel>
+
+        <!-- Кнопка "Вычислить" и поле для ответа -->
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0">
+            <Button Name="CalculateButton"  Content="Вычислить" Width="150" Height="40" Click="CalculateButton_Click" Margin="0,0,0,10"/>
+            <TextBlock Name="ResultLabel" Text="Результат:" FontSize="16" HorizontalAlignment="Center"/>
+            <TextBlock Name="ResultValue" Text="" FontSize="18" FontWeight="Bold" Foreground="Blue" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>
