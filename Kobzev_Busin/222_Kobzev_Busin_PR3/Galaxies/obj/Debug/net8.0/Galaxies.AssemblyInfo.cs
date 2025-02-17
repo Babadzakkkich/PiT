@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Fibonacci")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Galaxies")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26fe9c8aa6b627f96429f24ff6789fe661a780a7")]
-[assembly: System.Reflection.AssemblyProductAttribute("Fibonacci")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Fibonacci")]
+[assembly: System.Reflection.AssemblyProductAttribute("Galaxies")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Galaxies")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

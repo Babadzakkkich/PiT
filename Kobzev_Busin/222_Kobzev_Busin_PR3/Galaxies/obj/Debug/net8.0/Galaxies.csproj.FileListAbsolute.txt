@@ -1,0 +1,15 @@
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\bin\Debug\net8.0\Galaxies.exe
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\bin\Debug\net8.0\Galaxies.deps.json
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\bin\Debug\net8.0\Galaxies.runtimeconfig.json
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\bin\Debug\net8.0\Galaxies.dll
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\bin\Debug\net8.0\Galaxies.pdb
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\obj\Debug\net8.0\Galaxies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\obj\Debug\net8.0\Galaxies.AssemblyInfoInputs.cache
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\obj\Debug\net8.0\Galaxies.AssemblyInfo.cs
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\obj\Debug\net8.0\Galaxies.csproj.CoreCompileInputs.cache
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\obj\Debug\net8.0\Galaxies.sourcelink.json
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\obj\Debug\net8.0\Galaxies.dll
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\obj\Debug\net8.0\refint\Galaxies.dll
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\obj\Debug\net8.0\Galaxies.pdb
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\obj\Debug\net8.0\Galaxies.genruntimeconfig.cache
+C:\Users\227192\Desktop\PiT\Kobzev_Busin\222_Kobzev_Busin_PR3\Galaxies\obj\Debug\net8.0\ref\Galaxies.dll
