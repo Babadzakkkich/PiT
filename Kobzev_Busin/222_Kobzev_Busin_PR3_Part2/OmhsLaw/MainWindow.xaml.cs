@@ -45,10 +45,8 @@ namespace OmhsLaw
             }
         }
 
-        // Обработка нажатия кнопки "Вычислить"
         private void CalculateButton_Click(object sender, RoutedEventArgs e)
         {
-            // Проверка на пустые поля
             if (string.IsNullOrWhiteSpace(InputField1.Text) || string.IsNullOrWhiteSpace(InputField2.Text))
             {
                 MessageBox.Show("Ошибка: Заполните все поля.", "Ошибка ввода", MessageBoxButton.OK, MessageBoxImage.Error);
@@ -61,7 +59,7 @@ namespace OmhsLaw
                 double value2 = double.Parse(InputField2.Text);
 
                 // Проверка на отрицательные значения
-                if (value1 < 0 || value2 < 0)
+                if (value1 <= 0 || value2 <= 0)
                 {
                     MessageBox.Show("Ошибка: Введите положительные значения.", "Ошибка ввода", MessageBoxButton.OK, MessageBoxImage.Error);
                     return;

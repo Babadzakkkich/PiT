@@ -6,8 +6,7 @@
         xmlns:local="clr-namespace:OmhsLaw"
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="800">
-        <Window.Resources>
-        <!-- Подключение словаря стилей -->
+    <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Style.xaml"/>
@@ -15,7 +14,6 @@
         </ResourceDictionary>
     </Window.Resources>
     <Grid>
-        <!-- Определение строк и столбцов -->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
@@ -27,7 +25,6 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <!-- Левая панель для ввода данных -->
         <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical" Margin="20,10,10,10">
             <TextBlock Name="InputLabel1" Text="Введите значение 1:" FontSize="14" Margin="0,0,0,5"/>
             <TextBox Name="InputField1" Width="200" Height="30" Margin="0,0,0,10"/>
@@ -36,14 +33,12 @@
             <TextBox Name="InputField2" Width="200" Height="30" Margin="0,0,0,10"/>
         </StackPanel>
 
-        <!-- Правая панель для переключателей -->
         <StackPanel Grid.RowSpan="2" Grid.Column="1" Orientation="Vertical" Margin="10,10,20,10">
             <RadioButton Name="CurrentRadioButton" Content="Сила тока (I)" GroupName="CalculationType" Margin="0,0,0,10" Checked="RadioButton_Checked"/>
             <RadioButton Name="VoltageRadioButton" Content="Напряжение (U)" GroupName="CalculationType" Margin="0,0,0,10" Checked="RadioButton_Checked"/>
             <RadioButton Name="ResistanceRadioButton" Content="Сопротивление (R)" GroupName="CalculationType" Margin="0,0,0,10" Checked="RadioButton_Checked"/>
         </StackPanel>
 
-        <!-- Кнопка "Вычислить" и поле для ответа -->
         <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0">
             <Button Name="CalculateButton"  Content="Вычислить" Width="150" Height="40" Click="CalculateButton_Click" Margin="0,0,0,10"/>
             <TextBlock Name="ResultLabel" Text="Результат:" FontSize="16" HorizontalAlignment="Center"/>
