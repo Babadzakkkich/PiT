@@ -1,0 +1,7 @@
+C:\Users\227192\source\repos\Babadzakkkich\PiT\Kobzev_Busin\222_Kobzev_Busin_PR6_Bank\bin\Debug\222_Kobzev_Busin_PR6_Bank.exe.config
+C:\Users\227192\source\repos\Babadzakkkich\PiT\Kobzev_Busin\222_Kobzev_Busin_PR6_Bank\bin\Debug\222_Kobzev_Busin_PR6_Bank.exe
+C:\Users\227192\source\repos\Babadzakkkich\PiT\Kobzev_Busin\222_Kobzev_Busin_PR6_Bank\bin\Debug\222_Kobzev_Busin_PR6_Bank.pdb
+C:\Users\227192\source\repos\Babadzakkkich\PiT\Kobzev_Busin\222_Kobzev_Busin_PR6_Bank\obj\Debug\222_Kobzev_Busin_PR6_Bank.csproj.AssemblyReference.cache
+C:\Users\227192\source\repos\Babadzakkkich\PiT\Kobzev_Busin\222_Kobzev_Busin_PR6_Bank\obj\Debug\222_Kobzev_Busin_PR6_Bank.csproj.CoreCompileInputs.cache
+C:\Users\227192\source\repos\Babadzakkkich\PiT\Kobzev_Busin\222_Kobzev_Busin_PR6_Bank\obj\Debug\222_Kobzev_Busin_PR6_Bank.exe
+C:\Users\227192\source\repos\Babadzakkkich\PiT\Kobzev_Busin\222_Kobzev_Busin_PR6_Bank\obj\Debug\222_Kobzev_Busin_PR6_Bank.pdb
