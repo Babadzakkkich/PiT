@@ -57,6 +57,7 @@
     <Content Include="Images\DebitLessThanZero.png" />
     <Content Include="Images\DebitMoreThanBalance.png" />
     <Content Include="Images\DebitTestBad.png" />
+    <Content Include="Images\DebitTestFixed.png" />
     <Content Include="Images\DebitTestGood.png" />
     <Content Include="Images\DebitUpdatesBalance.png" />
   </ItemGroup>
