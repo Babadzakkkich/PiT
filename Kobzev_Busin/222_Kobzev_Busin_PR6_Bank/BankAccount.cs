@@ -9,7 +9,7 @@ namespace _222_Kobzev_Busin_PR6_Bank
     public class BankAccount
     {
         public const string DebitAmountExceedsBalanceMessage = "Debit amount exceeds balance";
-        public const string DebitAmountLessThanZeroMessage = "Debit amount is less than zero";
+        public const string AmountLessThanZeroMessage = "Amount is less than zero";
 
         private readonly string m_customerName;
         private double m_balance;
@@ -46,7 +46,7 @@ namespace _222_Kobzev_Busin_PR6_Bank
 
             if (amount < 0)
             {
-                throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountLessThanZeroMessage);
+                throw new System.ArgumentOutOfRangeException("amount", amount, AmountLessThanZeroMessage);
             }
 
 
@@ -59,7 +59,7 @@ namespace _222_Kobzev_Busin_PR6_Bank
         {
             if (amount < 0)
             {
-                throw new ArgumentOutOfRangeException("amount");
+                throw new ArgumentOutOfRangeException("amount", amount, AmountLessThanZeroMessage);
             }
 
 

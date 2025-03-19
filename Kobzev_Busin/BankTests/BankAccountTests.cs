@@ -40,7 +40,7 @@ namespace BankTests
             catch (System.ArgumentOutOfRangeException e)
             {
                 // Assert
-                StringAssert.Contains(e.Message, BankAccount.DebitAmountLessThanZeroMessage);
+                StringAssert.Contains(e.Message, BankAccount.AmountLessThanZeroMessage);
                 return;
             }
             Assert.Fail("The expected exception was not thrown.");
@@ -63,6 +63,45 @@ namespace BankTests
             {
                 // Assert
                 StringAssert.Contains(e.Message, BankAccount.DebitAmountExceedsBalanceMessage);
+                return;
+            }
+            Assert.Fail("The expected exception was not thrown.");
+        }
+
+        [TestMethod]
+        public void Credit_WithValidAmount_UpdatesBalance()
+        {
+            // Arrange
+            double beginningBalance = 11.44;
+            double creditAmount = 4.55;
+            double expected = 15.99;
+            BankAccount account = new BankAccount("Mr. Nicolas Cage", beginningBalance);
+
+            // Act
+            account.Credit(creditAmount);
+
+            // Assert
+            double actual = account.Balance;
+            Assert.AreEqual(expected, actual, 0.001, "Account not credited correctly");
+        }
+
+        [TestMethod]
+        public void Credit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
+        {
+            // Arrange
+            double beginningBalance = 11.99;
+            double creditAmount = -100.0;
+            BankAccount account = new BankAccount("Mr. Michael Jordan", beginningBalance);
+
+            // Act
+            try
+            {
+                account.Credit(creditAmount);
+            }
+            catch (System.ArgumentOutOfRangeException e)
+            {
+                // Assert
+                StringAssert.Contains(e.Message, BankAccount.AmountLessThanZeroMessage);
                 return;
             }
             Assert.Fail("The expected exception was not thrown.");
