@@ -49,5 +49,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Images\CreditLessThanZero.png" />
+    <Content Include="Images\CreditTestGood.png" />
+    <Content Include="Images\CreditUpdatesBalance.png" />
+    <Content Include="Images\DebitLessThanZero.png" />
+    <Content Include="Images\DebitMoreThanBalance.png" />
+    <Content Include="Images\DebitTestBad.png" />
+    <Content Include="Images\DebitTestGood.png" />
+    <Content Include="Images\DebitUpdatesBalance.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

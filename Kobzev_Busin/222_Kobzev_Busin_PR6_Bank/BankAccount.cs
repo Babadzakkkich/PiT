@@ -51,7 +51,7 @@ namespace _222_Kobzev_Busin_PR6_Bank
 
 
 
-            m_balance -= amount;
+            m_balance += amount;
         }
 
 
