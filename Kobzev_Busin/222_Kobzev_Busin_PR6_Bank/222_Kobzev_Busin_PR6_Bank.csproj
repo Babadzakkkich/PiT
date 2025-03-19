@@ -60,6 +60,7 @@
     <Content Include="Images\DebitTestFixed.png" />
     <Content Include="Images\DebitTestGood.png" />
     <Content Include="Images\DebitUpdatesBalance.png" />
+    <Content Include="Images\TestAll.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
