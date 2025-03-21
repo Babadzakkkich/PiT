@@ -1,6 +1,4 @@
 # Описание практической работы №6
-**Результат работы программы до процесса тестирования**
-![ResFalse](https://github.com/Babadzakkkich/PiT/blob/master/Kobzev_Busin/222_Kobzev_Busin_PR6_Bank/Images/ProgramResultFalse.png)
 
 ### Результаты данной ПР представлены в общей таблице 
 
@@ -13,5 +11,12 @@
 | Тесты метода credit | ![Тут изображение тестов в VS](https://github.com/Babadzakkkich/PiT/blob/master/Kobzev_Busin/222_Kobzev_Busin_PR6_Bank/Images/CreditTestGood.png) | Тесты показали положительный результат | Рефакторинг не требуется |
 | Тесты обоих методов | ![Тут изображение тестов в VS](https://github.com/Babadzakkkich/PiT/blob/master/Kobzev_Busin/222_Kobzev_Busin_PR6_Bank/Images/TestAll.png) | Тесты показали положительный результат | Рефакторинг не требуется |
 
-**После окончания этапа тестирования была ещё раз запущена программа**
+### Результаты работы программы
+
+**До процесса тестирования (результат неправильный)**
+
+![ResFalse](https://github.com/Babadzakkkich/PiT/blob/master/Kobzev_Busin/222_Kobzev_Busin_PR6_Bank/Images/ProgramResultFalse.png)
+
+**После окончания этапа тестирования (результат правильный)**
+
 ![ResTrue](https://github.com/Babadzakkkich/PiT/blob/master/Kobzev_Busin/222_Kobzev_Busin_PR6_Bank/Images/ProgramResultTrue.png)
